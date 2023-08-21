@@ -1,0 +1,164 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/css-loader@6.8.1_webpack@5.88.2/node_modules/css-loader/dist/cjs.js!./node_modules/.pnpm/postcss-loader@7.3.3_postcss@8.4.28_webpack@5.88.2/node_modules/postcss-loader/dist/cjs.js!./node_modules/.pnpm/sass-loader@13.3.2_sass@1.64.1_webpack@5.88.2/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./src/style/index.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: "Bebas Neue", sans-serif;
+  src: url(12e3683f9192436a7be8.ttf);
+}
+body {
+  background-color: rgb(0, 0, 0) !important;
+  color: white;
+}
+
+.nav-link {
+  color: rgb(190, 10, 10) !important;
+  padding-left: 22px;
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+h1 {
+  padding-left: 20px;
+  padding-top: 50px;
+  color: rgb(190, 10, 10) !important;
+  text-align: left;
+  align-items: left;
+  font-size: 26px;
+}
+
+h2 {
+  text-align: left;
+}
+
+p {
+  font-family: "Bebas Neue", sans-serif;
+  color: white !important;
+}
+
+.search-bar {
+  text-align: right;
+}
+
+.form-control {
+  border-radius: 35px !important;
+  background-color: transparent !important;
+  color: white !important;
+  width: 40% !important;
+  margin-right: 20px;
+}
+
+.placeholder {
+  color: grey !important;
+}
+
+.page-list p {
+  align-items: end;
+  text-align: left;
+  padding-left: 20px;
+  font-weight: lighter !important;
+  font-size: 14px;
+  padding-top: 10px;
+  max-width: 100%;
+}
+
+.page-list .articles {
+  padding-top: 100px;
+  color: white !important;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.page-list h1 {
+  color: white !important;
+  font-size: 16px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.page-list h2 {
+  color: white !important;
+  padding-left: 20px;
+  font-size: 24px;
+}
+
+.page-list h5 {
+  color: white !important;
+  font-size: 13px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.card {
+  background-color: transparent !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardGame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.show-more-link {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(190, 10, 10) !important;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  text-decoration: none;
+  padding: 4px 8px !important;
+}
+
+.show-more-link:hover {
+  background-color: #e64c00;
+}
+
+.page-detail .article {
+  padding-top: 120px;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  align-items: center;
+}
+
+.page-detail .p {
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.page-detail h1 {
+  font-size: 3rem !important;
+}
+
+.footer-element {
+  color: white;
+  padding-left: 20px;
+  padding-top: 10vh;
+  padding-bottom: 20px;
+}
+
+.rectangle {
+  width: 130px;
+  height: 10px;
+  background: rgb(190, 10, 10);
+}
